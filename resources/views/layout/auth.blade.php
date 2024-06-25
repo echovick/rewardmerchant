@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="{{ asset('vendor/owl-carousel/owl.theme.css') }}" />
 
     <link href="{{ asset('css/osahan.css') }}" rel="stylesheet" />
+    @livewireStyles
 </head>
 
 <body class="login-main-body">
@@ -65,6 +66,7 @@
         integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
         data-cf-beacon='{"rayId":"8962f40eaec76685","version":"2024.4.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}'
         crossorigin="anonymous"></script>
+        @livewireScripts
 </body>
 
 </html>
