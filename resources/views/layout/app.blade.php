@@ -88,8 +88,7 @@
         integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
         data-cf-beacon='{"rayId":"8962f151ca8b0a48","version":"2024.4.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}'
         crossorigin="anonymous"></script>
-    {{-- @livewireScripts --}}
-    <script src="/vendor/livewire/livewire.js"   data-csrf="Zk1ENncmbwju64HbG7hKHINkZ2TkyHIuoKBxdxCH" data-update-uri="/vendor/livewire/update" data-navigate-once="true"></script>
+    @livewireScripts
 </body>
 
 </body>
