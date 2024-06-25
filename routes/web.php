@@ -37,9 +37,9 @@ Route::group(['middleware' => 'auth'], function () {
 });
 
 Livewire::setScriptRoute(function ($handle) {
-    return Route::get('/public/vendor/livewire/livewire.js', $handle);
+    return Route::get('/vendor/livewire/livewire.js', $handle);
 });
 
 Livewire::setUpdateRoute(function ($handle) {
-    return Route::post('/public/vendor/livewire/update', $handle);
+    return Route::post('/vendor/livewire/update', $handle);
 });
