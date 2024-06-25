@@ -6,6 +6,7 @@ use App\Http\Controllers\BrandController;
 use App\Http\Controllers\CustomerController;
 use App\Http\Controllers\VendorController;
 use Illuminate\Support\Facades\Route;
+use Livewire\Livewire;
 
 Route::get('/', [AuthController::class, 'login'])->name('home');
 
@@ -33,4 +34,12 @@ Route::group(['middleware' => 'auth'], function () {
     Route::group(['prefix' => 'vendor'], function () {
         Route::get('home', [VendorController::class, 'index'])->name('vendor.dashboard');
     });
+});
+
+Livewire::setScriptRoute(function ($handle) {
+    return Route::get('/public/vendor/livewire/livewire.js', $handle);
+});
+
+Livewire::setUpdateRoute(function ($handle) {
+    return Route::post('/public/vendor/livewire/update', $handle);
 });
