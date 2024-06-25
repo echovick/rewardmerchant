@@ -89,7 +89,7 @@
         data-cf-beacon='{"rayId":"8962f151ca8b0a48","version":"2024.4.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}'
         crossorigin="anonymous"></script>
     {{-- @livewireScripts --}}
-    <script src="{{ asset('vendor/livewire/livewire.js') }}"></script>
+    <script src="{{ asset('vendor/livewire/livewire.js') }}" data-update-uri="vendor/livewire/update"></script>
 </body>
 
 </body>
