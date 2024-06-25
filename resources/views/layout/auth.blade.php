@@ -67,7 +67,7 @@
         data-cf-beacon='{"rayId":"8962f40eaec76685","version":"2024.4.1","r":1,"token":"dd471ab1978346bbb991feaa79e6ce5c","b":1}'
         crossorigin="anonymous"></script>
         {{-- @livewireScripts --}}
-        <script src="https://rewardmerchant.com/vendor/livewire/livewire.js?id=07f22875"   data-csrf="Zk1ENncmbwju64HbG7hKHINkZ2TkyHIuoKBxdxCH" data-update-uri="https://rewardmerchant.com/vendor/livewire/livewire/update" data-navigate-once="true"></script>
+        <script src="https://rewardmerchant.com/vendor/livewire/livewire.js?id=07f22875"   data-csrf="Zk1ENncmbwju64HbG7hKHINkZ2TkyHIuoKBxdxCH" data-update-uri="https://rewardmerchant.com/vendor/livewire/update" data-navigate-once="true"></script>
 </body>
 
 </html>
